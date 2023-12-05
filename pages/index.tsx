@@ -364,7 +364,7 @@ export default function Home() {
           boxShadow="rgba(0, 0, 0, 1) 0px 4px 12px"
           padding={isSmallerThan650px ? "0.75rem" : "2.5rem"}
         >
-          <>
+       
             <Center>
               {/* <Button
                 backgroundColor={"red.200"}
@@ -384,9 +384,9 @@ export default function Home() {
                 </ModalBody>
               </ModalContent>
             </Modal>
-          </>
+  
 
-          <></>
+         
 
           <CardBody padding="0">
             <Flex
