@@ -342,20 +342,21 @@ export default function Home() {
     );
 
     return (
-      <>
-        <style jsx global>
-          {`
-            html {
-              height: 100%;
-              background: black; /* fallback for old browsers */
-            }
-            body {
-              // background: #673ab7; /* fallback for old browsers */
-              background: black; /* fallback for old browsers */
-            }
-          `}
-        </style>
+      <style jsx global>
+      {`
+        html {
+          height: 100%;
+          background: black; /* fallback for old browsers */
+        }
+        body {
+          // background: #673ab7; /* fallback for old browsers */
+          background: black; /* fallback for old browsers */
+        }
+      `}
+    </style>
 
+      <>
+    
         <Card
           minHeight={isSmallerThan1100px ? "70vh" : "800px"}
           maxWidth="1800px"
